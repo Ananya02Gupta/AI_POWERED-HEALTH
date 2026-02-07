@@ -1,9 +1,18 @@
+* { 
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+    
+
 body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #00ff51, #bde107, #02d4fe);
-  text-align: center;
-  margin: 0;
+    background: #0b0b0b;
+    color: white;
 }
+
+
 
 .container {
   padding: 25px;
@@ -54,3 +63,4 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
