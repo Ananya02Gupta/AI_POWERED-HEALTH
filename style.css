@@ -1,49 +1,11 @@
-* { 
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
-  }
-    
-
 body {
-    background: #0b0b0b;
-    color: white;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right,  #00ffff, 
+ #ffff00, #4ce600 );
+  text-align: center;
+  margin: 0;
 }
 
-/* HERO */
-.hero {
-    min-height: 100vh;
-    text-align: center;
-    padding-top: 80px;
-    position: relative;
-    overflow: hidden;
-    background: #0b0b0b;
-    color: white;
-}
-
-/* BLOBS */
-.blob {
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    border-radius: 30px;
-    opacity: 0.35;
-    animation: float 10s infinite ease-in-out;
-}
-
-.b1 { background: #5b5bff; top: 10%; left: 20%; }
-.b2 { background: #00c9a7; bottom: 15%; right: 25%; animation-delay: 3s; }
-.b3 { background: #ff9f1c; top: 15%; left: 14%; animation-delay: 6s; }
-.b4 { background: #c900c2; top: 10%; right: 20%; animation-delay: 6s;}
-
-
-@keyframes float {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-40px); }
-    100% { transform: translateY(0); }
-    
 .container {
   padding: 25px;
   color: white;
@@ -93,6 +55,7 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
 
 
 
