@@ -36,7 +36,7 @@ body {
 .b1 { background: #5b5bff; top: 10%; left: 20%; }
 .b2 { background: #00c9a7; bottom: 15%; right: 25%; animation-delay: 3s; }
 .b3 { background: #ff9f1c; top: 15%; left: 14%; animation-delay: 6s; }
-.b5 { background: #c900c2; top: 10%; right: 20%; animation-delay: 6s;}
+.b4 { background: #c900c2; top: 10%; right: 20%; animation-delay: 6s;}
 
 
 @keyframes float {
@@ -93,6 +93,7 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
 
 
 
