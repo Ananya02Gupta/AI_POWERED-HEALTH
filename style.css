@@ -12,7 +12,76 @@ body {
     color: white;
 }
 
+/* HERO */
+.hero {
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+    background: #0b0b0b;
+    color: white;
+}
 
+/* BLOBS */
+.blob {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+    opacity: 0.35;
+    animation: float 10s infinite ease-in-out;
+}
+
+.b1 { background: #5b5bff; top: 20%; left: 10%; }
+.b2 { background: #00c9a7; bottom: 25%; right: 20%; animation-delay: 3s; }
+.b3 { background: #ff9f1c; top: 55%; left: 55%; animation-delay: 6s; }
+.b5 { background: #c900c2; top: 80%; right: 40%; animation-delay: 6s;}
+.b6 { background: #ff9671; bottom: 10%; left: 23%; animation-delay: 1s;}
+
+/* CIRCLE BLOBS */
+.circle-blob {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  opacity: 0.35;
+  animation: float 12s infinite ease-in-out;
+  filter: blur(8px);
+}
+
+/* Individual blobs */
+.c2 {
+  background: #0ef043;
+  bottom: 15%;
+  right: 5%;
+  animation-delay: 3s;
+}
+.small-blob {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: float 8s infinite ease-in-out;
+  filter: blur(4px);
+}
+.s3 {
+  background: #ff9f1c;
+  bottom: 30%;
+  left: 35%;
+  animation-delay: 4s;
+}
+
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+    0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
 
 .container {
   padding: 25px;
@@ -63,4 +132,5 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
 
