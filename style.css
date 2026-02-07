@@ -33,56 +33,17 @@ body {
     animation: float 10s infinite ease-in-out;
 }
 
-.b1 { background: #5b5bff; top: 20%; left: 10%; }
-.b2 { background: #00c9a7; bottom: 25%; right: 20%; animation-delay: 3s; }
-.b3 { background: #ff9f1c; top: 15%; left: 15%; animation-delay: 6s; }
-.b5 { background: #c900c2; top: 50%; right: 40%; animation-delay: 6s;}
-.b6 { background: #ff9671; bottom: 10%; left: 23%; animation-delay: 1s;}
-
-/* CIRCLE BLOBS */
-.circle-blob {
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  opacity: 0.35;
-  animation: float 12s infinite ease-in-out;
-  filter: blur(8px);
-}
-
-/* Individual blobs */
-.c2 {
-  background: #0ef043;
-  bottom: 15%;
-  right: 5%;
-  animation-delay: 3s;
-}
-.small-blob {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  opacity: 0.4;
-  animation: float 8s infinite ease-in-out;
-  filter: blur(4px);
-}
-.s3 {
-  background: #ff9f1c;
-  bottom: 30%;
-  left: 35%;
-  animation-delay: 4s;
-}
+.b1 { background: #5b5bff; top: 10%; left: 20%; }
+.b2 { background: #00c9a7; bottom: 15%; right: 25%; animation-delay: 3s; }
+.b3 { background: #ff9f1c; top: 15%; left: 14%; animation-delay: 6s; }
+.b5 { background: #c900c2; top: 10%; right: 20%; animation-delay: 6s;}
 
 
 @keyframes float {
     0% { transform: translateY(0); }
     50% { transform: translateY(-40px); }
     100% { transform: translateY(0); }
-    0% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
-}
-
+    
 .container {
   padding: 25px;
   color: white;
@@ -132,6 +93,7 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
 
 
 
