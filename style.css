@@ -35,8 +35,8 @@ body {
 
 .b1 { background: #5b5bff; top: 20%; left: 10%; }
 .b2 { background: #00c9a7; bottom: 25%; right: 20%; animation-delay: 3s; }
-.b3 { background: #ff9f1c; top: 55%; left: 55%; animation-delay: 6s; }
-.b5 { background: #c900c2; top: 80%; right: 40%; animation-delay: 6s;}
+.b3 { background: #ff9f1c; top: 15%; left: 15%; animation-delay: 6s; }
+.b5 { background: #c900c2; top: 50%; right: 40%; animation-delay: 6s;}
 .b6 { background: #ff9671; bottom: 10%; left: 23%; animation-delay: 1s;}
 
 /* CIRCLE BLOBS */
@@ -132,5 +132,6 @@ canvas {
   max-width: 600px;
   margin: auto;
 }
+
 
 
